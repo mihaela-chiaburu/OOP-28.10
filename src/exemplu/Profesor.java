@@ -2,8 +2,8 @@ package exemplu;
 
 public class Profesor extends Persoana{
     private Double salariu;
-    public Profesor(String nume, Integer varsta, Double salariu){
-        super(nume, varsta);
+    public Profesor(String nume, Integer varsta, Double bonus, Double salariu){
+        super(nume, varsta, bonus);
         this.salariu = salariu;
     }
     public Double getSalariu(){
@@ -16,6 +16,7 @@ public class Profesor extends Persoana{
         return "\nexemplu.Profesor: " +
                 "\nnume: " + super.getNume() +
                 "\nvasrta: " + super.getVarsta() +
+                "\nbonus: " + super.getBonus() +
                 "\nsalariu: " + this.getSalariu() + "\n";
     }
 }
