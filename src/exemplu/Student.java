@@ -1,3 +1,5 @@
+package exemplu;
+
 public class Student extends Persoana{
     private String grupa;
     public Student(String nume, Integer varsta, String grupa){
@@ -11,7 +13,7 @@ public class Student extends Persoana{
         this.grupa = grupa;
     }
     public String toString() {
-        return "\nStudent: " +
+        return "\nexemplu.Student: " +
                 "\nnume: " + super.getNume() +
                 "\nvasrta: " + super.getVarsta() +
                 "\ngrupa: " + this.getGrupa() + "\n";

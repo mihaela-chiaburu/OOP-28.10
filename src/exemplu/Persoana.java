@@ -1,3 +1,5 @@
+package exemplu;
+
 public class Persoana {
     private String nume;
     private Integer varsta;
@@ -15,7 +17,7 @@ public class Persoana {
         this.nume = nume;
     }
     public String toString() {
-        return "\nPersoana: " +
+        return "\nexemplu.Persoana: " +
                 "\nnume: " + this.getNume() +
                 "\nvasrta: " + this.getVarsta() + "\n";
     }

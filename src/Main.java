@@ -1,3 +1,7 @@
+import exemplu.Persoana;
+import exemplu.Profesor;
+import exemplu.Student;
+
 public class Main {
     public static void main(String[] args) {
         Lucrator lucrator = new Lucrator("Test1", 30, 5, 20000.0);

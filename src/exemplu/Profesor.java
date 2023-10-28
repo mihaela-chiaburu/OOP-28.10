@@ -1,3 +1,5 @@
+package exemplu;
+
 public class Profesor extends Persoana{
     private Double salariu;
     public Profesor(String nume, Integer varsta, Double salariu){
@@ -11,7 +13,7 @@ public class Profesor extends Persoana{
         this.salariu = salariu;
     }
     public String toString() {
-        return "\nProfesor: " +
+        return "\nexemplu.Profesor: " +
                 "\nnume: " + super.getNume() +
                 "\nvasrta: " + super.getVarsta() +
                 "\nsalariu: " + this.getSalariu() + "\n";
